@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroNavbar from './nav';
+import HeroNavbar from './Nav';
 import Hero from './Hero';
 import Projects from './Projects';
 import Testimonial from './Testimonial';
-import Footer from './footer';
+import Footer from './Footer';
 
 
 function Main() {
