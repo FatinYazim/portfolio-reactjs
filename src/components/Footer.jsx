@@ -2,7 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>footer</div>
+    <div className='flex justify-center bg-black text-white py-10' >
+      Copyright &copy; 2023 - FatinYazim</div>
   )
 }
 
