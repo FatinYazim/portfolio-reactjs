@@ -12,7 +12,7 @@ const Projects = () => {
       </div>
       <div>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-5'>
-          <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
+          <div className='max-w-md w-full mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
             <div className='md:flex'>
               <div className='p-8'>
                 <div className='uppercase tracking-wide text-sm text-indigo-500 font-semibold'>
@@ -29,7 +29,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
+          <div className='max-w-md w-full mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
             <div className='md:flex'>
               <div className='md:shrink-0 p-5'>
                 <img src={SchoolPic} alt='Project1' width={150} height={150} />
@@ -50,11 +50,11 @@ const Projects = () => {
         <hr />
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-5'>
-          <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
+          <div className='max-w-md w-full mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
             <div className='md:flex'>
               <div className='p-8'>
                 <div className='uppercase tracking-wide text-sm text-indigo-500 font-semibold'>
-                 Inventory Management System
+                  Inventory Management System
                 </div>
                 <a href='#'>Subheading</a>
                 <p className='mt-2 text-slate-500'>
@@ -67,14 +67,14 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
+          <div className='max-w-md w-full mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
             <div className='md:flex'>
               <div className='md:shrink-0 p-5'>
                 <img src={PosPic} alt='Project1' width={150} height={150} />
               </div>
               <div className='p-8'>
                 <div className='uppercase tracking-wide text-sm text-indigo-500 font-semibold'>
-                  Pos Management System
+                  POS Management System
                 </div>
                 <a href='#'>Subheading</a>
                 <p className='mt-2 text-slate-500'>
@@ -90,3 +90,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
